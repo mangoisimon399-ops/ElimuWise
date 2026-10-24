@@ -1,0 +1,27 @@
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets - never upload
+.env
+.env.*
+!.env.example
+
+# Private student and financial records
+students.json
+agents.json
+withdrawals.json
+earnings.json
+payment_settings.json
+
+# Local database files - review before uploading
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor files
+.vscode/
+.DS_Store
